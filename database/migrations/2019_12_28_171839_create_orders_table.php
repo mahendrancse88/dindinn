@@ -13,9 +13,9 @@ class CreateOrdersTable extends Migration
      */
     public function up()
     {
-        Schema::create('orders', function (Blueprint $table) {
+        Schema::create('feed_backs', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
+            $table->string('feedbacks');
             $table->unsignedBigInteger('client_id');
             $table
                 ->foreign('client_id')
