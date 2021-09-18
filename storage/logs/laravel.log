@@ -1,0 +1,28 @@
+[2021-09-18 03:06:51] local.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+[stacktrace]
+#0 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'D:\\\\xampp2\\\\htdoc...', 122, Array)
+#1 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+#2 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+#3 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 D:\\xampp2\\htdocs\\laravel_dindinn\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2021-09-18 03:07:04] local.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+[stacktrace]
+#0 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'D:\\\\xampp2\\\\htdoc...', 122, Array)
+#1 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+#2 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+#3 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 D:\\xampp2\\htdocs\\laravel_dindinn\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 D:\\xampp2\\htdocs\\laravel_dindinn\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
